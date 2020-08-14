@@ -1,0 +1,28 @@
+JAVA
+
+string - text
+int - heltal
+double - decimaltal
+
+
+Basic startup java:
+public class <var>{
+	public static void main (String[]args){
+	
+	}
+}
+
+
+
+
+
+metod - skapa ett stycke kod under main som sedan kan anropas från main.
+anrop - _metodens variabel_();
+
+
+GITHUB
+
+git status - visa ändringar i git
+git add - lägger till ändringar
+git commit -m "" - sparar ändringar + lägger till meddelande ("")
+git push - laddar upp ändringar till repository
