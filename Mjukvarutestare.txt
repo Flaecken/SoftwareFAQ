@@ -12,7 +12,11 @@ public class <var>{
 	}
 }
 
+this.<> - Tillåter att saker heter samma sak.
 
+INGEN HÅRDKOD I KLASSER
+
+Instans - specifik data till en ospecifik klass
 
 
 
@@ -26,3 +30,4 @@ git status - visa ändringar i git
 git add - lägger till ändringar
 git commit -m "" - sparar ändringar + lägger till meddelande ("")
 git push - laddar upp ändringar till repository
+git blame "" - kolla pushade ändringar i fil
