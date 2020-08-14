@@ -1,0 +1,20 @@
+Java
+
+string - text
+int - heltal
+double - decimaltal
+
+
+Basic startup java:
+public class <var>{
+	public static void main (String[]args){
+	
+	}
+}
+
+
+
+
+
+metod - skapa ett stycke kod under main som sedan kan anropas från main.
+anrop - _metodens variabel_();
