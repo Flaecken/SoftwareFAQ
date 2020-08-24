@@ -1,0 +1,38 @@
+
+Programmering för Testare
+Java
+
+Föreläsare Vincent Adler
+Tolkade program: Python, php
+Kompilerade program: C, C++
+Byte-kompilerade program: Java
+
+Divide & Conquer - tolka problemet åt datorn.
+
+
+cygwin/terminalkommandon
+
+ls / Visa icke-dolda filer i dir
+ls -a/ Visa alla filer i dir
+ls -al / Visa utökad info om alla filer i dir
+pwd / Visa vart du är
+rm / Ta bort filer, för att ta bort ett dir måste hela dir vara tomt
+~ / "Tilde" / cygwins hem-mapp
+mkdir / Skapa ett nytt dir
+touch / Skapa ett nytt dir
+atom.cmd <existerande eller icke-existerande program> / Startar filen i Atom
+Absoluta vägar = /
+Relativa vägar = cd .. // går att nå lokalt
+
+Typecast
+
+char: 16 bit, '\xxxxx'
+boolean: 1 bit, standard false
+
+byte: -128 till +127
+short: -32 768 till +32 767
+int: -2 147 483 648 till 2 147 483 647
+long: -9 223 372 036 854 775 808 till 9 223 372 036 854 775 807 
+variabel 1 = (önskad typ) variabel 2, (risk att det inte fungerar) 
+
+byte kör 8 bit, short kör 16, int kör 32 och long kör 64.
