@@ -1,9 +1,11 @@
 JAVA
 
+boolean - jämförelse, true/false
 string - text
 int - heltal
-double - decimaltal
-
+double/float - decimaltal
+void - används med public static när inget ska returneras
+return - skickar tillbaka ett värde till anropet som sedan kan användas
 
 Basic startup java:
 public class <var>{
@@ -12,9 +14,9 @@ public class <var>{
 	}
 }
 
-this.<> - Tillåter att saker heter samma sak.
+this.<> - Tillåter att saker heter samma sak i klassen.
 
-INGEN HÅRDKOD I KLASSER
+INGEN HÅRDKODNING I KLASSER
 
 Instans - specifik data till en ospecifik klass
 
@@ -22,6 +24,24 @@ Instans - specifik data till en ospecifik klass
 
 metod - skapa ett stycke kod under main som sedan kan anropas från main.
 anrop - _metodens variabel_();
+anrop exempel med int - public class <var>{
+	public static void main (String[]args){
+		
+		add(x, y); //<-- värden till a och b sätts här 		
+
+	}	
+	// om argument har matats in, i detta fallet int a och b, så måste anropet ovan (add();) innehålla värdet för a och b.
+	public static void add(int a, int b) {
+		int sum = a + b;
+		System.out.println("Resultatet är"+sum);
+	
+	}
+}
+
+
+hoppa över ett stycke kod med boolean-uttrycket if (!<var>) {
+! före en metod kollar om motsatsen är sann
+
 
 
 GITHUB
